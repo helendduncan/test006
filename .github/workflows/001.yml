@@ -36,3 +36,6 @@ jobs:
           echo test, and deploy your project.
           pwd
           ls
+          jupyter-book build docs
+          pip install ghp-import
+          ghp-import -n -p docs/_build/html
