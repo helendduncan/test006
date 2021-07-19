@@ -186,7 +186,6 @@ pycosat==0.6.3
 pycountry==20.7.3
 pycountry-convert==0.7.2
 pycparser==2.20
-pycurl==7.43.0.6
 pydata-sphinx-theme==0.6.3
 pydocstyle==6.1.1
 PyDodo==1.0.0
@@ -196,7 +195,6 @@ Pygments==2.9.0
 pylint==2.8.3
 pyls-black==0.4.6
 pyls-spyder==0.3.2
-pyodbc==4.0.0-unsupported
 pyOpenSSL==20.0.1
 pyparsing==2.4.7
 pyproj==3.1.0
