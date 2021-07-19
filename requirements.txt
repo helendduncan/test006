@@ -9,7 +9,6 @@ argh==0.26.2
 argon2-cffi==20.1.0
 arrow==0.13.1
 asn1crypto==1.4.0
-astroid==2.5.8
 astropy==4.2.1
 async-generator==1.10
 async-timeout==3.0.1
