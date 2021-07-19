@@ -37,6 +37,7 @@ jobs:
           pwd
           ls
           pip install jupyter-book
-          jupyter-book build docs
-          pip install ghp-import
-          ghp-import -n -p docs/_build/html
+          python --version
+          #jupyter-book build docs
+          #pip install ghp-import
+          #ghp-import -n -p docs/_build/html
