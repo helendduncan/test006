@@ -1,4 +1,4 @@
-name: deploy-book-here-try
+name: Build and Publish Jupyter Book
 
 # Only run this when the master branch changes
 on:
@@ -35,6 +35,7 @@ jobs:
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
