@@ -27,6 +27,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
+        git config --global init.defaultBranch main
         jupyter-book build docs 
 
     # Push the book's HTML to github-pages
