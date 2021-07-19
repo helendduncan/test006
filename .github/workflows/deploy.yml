@@ -1,4 +1,4 @@
-name: deploy-book-here
+name: deploy-book-here-try
 
 # Only run this when the master branch changes
 on:
