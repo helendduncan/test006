@@ -1,4 +1,4 @@
-# Here's my sample title that I have modified
+# Here's my sample title that I have modded
 
 This is some sample text.
 
