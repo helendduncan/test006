@@ -57,7 +57,7 @@ entrypoints==0.3
 et-xmlfile==1.1.0
 fastcache==1.1.0
 filelock==3.0.12
-flake8==3.9.0
+flake=3.9.0
 Flask==1.1.2
 fsspec==2021.6.0
 future==0.18.2
